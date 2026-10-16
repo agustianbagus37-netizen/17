@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Untuk Kamu — Cerita Tentang Cinta</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="app">
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark">♥</span><span>little love story</span></div>
+    <div class="top-note">UNTUK SAYANGKU SYAKILA</div>
+  </header>
+  <section class="stage" aria-live="polite">
+    <article class="slide hero active" data-slide="0">
+      <div class="copy">
+        <p class="eyebrow">01 — awal yang indah</p>
+        <h1>Di antara<br>semua orang,<br><span class="accent">aku memilihmu.</span></h1>
+        <p class="lead">Entah bagaimana semesta bekerja, tapi bertemu denganmu terasa seperti menemukan bagian kecil dari dunia yang selama ini kucari.</p>
+        <div class="actions"><button class="btn primary" data-next>Mulai cerita <span aria-hidden="true">→</span></button><button class="btn secondary" id="heartBtn">Kirim cinta ♥</button></div>
+      </div>
+      <div class="art-wrap" aria-label="Ilustrasi romantis bunga dan bulan">
+        <span class="float-heart h1">♥</span><span class="float-heart h2">✦</span>
+        <div class="art-card"><div class="moon"></div><div class="flower">🌹</div><div class="art-caption"><small>for my favorite person</small><strong>Kamu, rumahku.</strong></div></div>
+      </div>
+    </article>
+    <article class="slide center-slide" data-slide="1">
+      <p class="eyebrow">02 — tentang kita</p>
+      <h2>Cinta bukan tentang<br><span class="accent">menjadi sempurna.</span></h2>
+      <p class="lead">Cinta adalah tentang dua orang yang terus belajar, saling memahami, dan memilih untuk tetap tinggal meskipun di hari-hari yang tidak mudah.</p>
+      <div class="quote-card"><div class="quote-mark">“</div><blockquote>Diriah yang riuh didalam sebuah gemuruh, Aku hanya butuh dipeluk yang utuh. Terkadang gaduh dikepalaku hanya butuh pelukan dan bisikan yang meyakinkan aku bahwa aku tak sendirian. Terkadang cintaku memang begitu rakus, bukannya aku tak tahu batasan akan tetapi DIRIMU TERLALU INDAH UNTUK KUCINTAI SETENGAH-SETENGAH</blockquote><div class="signature">— Selamat 2 Bulan Pacaran yaa sayangg ♡</div></div>
+      <div class="actions quote-actions"><button class="btn primary" data-next>Lanjut ke kenangan →</button></div>
+    </article>
+    <article class="slide video-slide" data-slide="2">
+      <div class="video-copy">
+        <p class="eyebrow">03 — simpan momen ini</p>
+        <h2 class="video-heading">Untukmu,<br><span class="accent">syakilakuu.</span></h2>
+        <p class="lead">Kalau suatu hari dunia terasa terlalu ramai, semoga kamu ingat: Disini ada aku yang selalu mendoakan bahagiamu.</p>
+        <p class="lead video-description">Putar video kecil ini, kita akan ingat bahwa hal sederhana pun bisa terasa istimewa disaat kita bersama.</p>
+        <div class="actions"><button class="btn secondary" data-prev>← Kembali</button><button class="btn primary" id="replayBtn">Putar dari awal ↻</button></div>
+      </div>
+      <div class="video-frame"><video id="loveVideo" controls playsinline preload="metadata" poster=""><source src="video kita.mp4" type="video/mp4">Browser kamu tidak mendukung pemutar video.</video><div class="video-label"><span><i class="pulse"></i>little moments, big love</span><span>with love ♡</span></div></div>
+    </article>
+  </section>
+  <footer class="footer"><div class="progress" aria-label="Pilih slide"><button class="dot active" data-go="0" aria-label="Slide 1"></button><button class="dot" data-go="1" aria-label="Slide 2"></button><button class="dot" data-go="2" aria-label="Slide 3"></button></div><div class="nav"><span class="page-count" id="pageCount">01 / 03</span><button class="nav-btn" id="prevBtn" aria-label="Slide sebelumnya">←</button><button class="nav-btn" id="nextBtn" aria-label="Slide berikutnya">→</button></div></footer>
+</main>
+<script src="script.js" defer></script>
+</body>
+</html>
